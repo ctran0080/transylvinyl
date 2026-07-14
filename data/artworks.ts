@@ -28,6 +28,58 @@ export type Artwork = {
  */
 export const artworks: Artwork[] = [
   {
+    id: "7",
+    slug: "frank",
+    title: "Frank",
+    description:
+      "Frankenstein's monster built entirely from shattered vinyl records, shown at Monsterpalooza.",
+    category: "Horror",
+    price: null,
+    status: "commission-only",
+    image: "/images/artworks/frank.jpg",
+    stripeBuyButtonId: null,
+    featured: true,
+  },
+  {
+    id: "8",
+    slug: "redrum",
+    title: "Redrum",
+    description:
+      "The Grady twins cut from broken vinyl against a swirling record backdrop, hand-lettered in red.",
+    category: "Horror",
+    price: null,
+    status: "commission-only",
+    image: "/images/artworks/redrum.jpg",
+    stripeBuyButtonId: null,
+    featured: true,
+  },
+  {
+    id: "9",
+    slug: "rolling-stones",
+    title: "Rolling Stones",
+    description:
+      "The iconic tongue-and-lips logo reassembled from broken red and black vinyl.",
+    category: "Pop Culture",
+    price: null,
+    status: "commission-only",
+    image: "/images/artworks/rolling-stones.jpg",
+    stripeBuyButtonId: null,
+    featured: true,
+  },
+  {
+    id: "10",
+    slug: "sam",
+    title: "Sam",
+    description:
+      "Sam from Trick 'r Treat, burlap sack and jack-o'-lantern built from shattered vinyl.",
+    category: "Horror",
+    price: null,
+    status: "commission-only",
+    image: "/images/artworks/sam.jpg",
+    stripeBuyButtonId: null,
+    featured: true,
+  },
+  {
     id: "1",
     slug: "shattered-count",
     title: "Shattered Count",
@@ -38,7 +90,6 @@ export const artworks: Artwork[] = [
     status: "available",
     image: "/images/artworks/placeholder-1.svg",
     stripeBuyButtonId: null,
-    featured: true,
   },
   {
     id: "2",
@@ -51,7 +102,6 @@ export const artworks: Artwork[] = [
     status: "available",
     image: "/images/artworks/placeholder-2.svg",
     stripeBuyButtonId: null,
-    featured: true,
   },
   {
     id: "3",
@@ -64,7 +114,6 @@ export const artworks: Artwork[] = [
     status: "sold",
     image: "/images/artworks/placeholder-3.svg",
     stripeBuyButtonId: null,
-    featured: true,
   },
   {
     id: "4",
