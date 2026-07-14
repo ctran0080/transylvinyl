@@ -18,7 +18,7 @@ export default function Home() {
             className="h-auto w-48 sm:w-64"
             priority
           />
-          <h1 className="font-display text-4xl text-glow text-foreground sm:text-6xl">
+          <h1 className="font-display text-4xl text-foreground sm:text-6xl">
             Broken Vinyl. Reborn as Art.
           </h1>
           <p className="max-w-xl text-lg text-muted">
@@ -29,7 +29,7 @@ export default function Home() {
           <div className="flex flex-col gap-4 sm:flex-row">
             <Link
               href="/shop"
-              className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-background transition-colors hover:bg-accent-dim"
+              className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-accent-foreground transition-colors hover:bg-accent-dim"
             >
               Shop the Gallery
             </Link>
@@ -75,7 +75,7 @@ export default function Home() {
           </p>
           <Link
             href="/contact"
-            className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-background transition-colors hover:bg-accent-dim"
+            className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-accent-foreground transition-colors hover:bg-accent-dim"
           >
             Start a Commission
           </Link>

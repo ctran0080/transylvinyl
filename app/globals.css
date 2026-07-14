@@ -1,13 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0a0a0a;
-  --background-raised: #141414;
-  --foreground: #ededed;
-  --muted: #9a9a9a;
-  --accent: #4caf6e;
-  --accent-dim: #2e6b41;
-  --border: #262626;
+  --background: #ffffff;
+  --background-raised: #f4f4f4;
+  --foreground: #171717;
+  --muted: #57534e;
+  --accent: #2f7d52;
+  --accent-dim: #245f3f;
+  --accent-foreground: #ffffff;
+  --border: #e3e3e1;
 }
 
 @theme inline {
@@ -17,6 +18,7 @@
   --color-muted: var(--muted);
   --color-accent: var(--accent);
   --color-accent-dim: var(--accent-dim);
+  --color-accent-foreground: var(--accent-foreground);
   --color-border: var(--border);
   --font-display: var(--font-pirata-one);
   --font-sans: var(--font-inter);
@@ -27,18 +29,14 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
   background-image:
-    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(76, 175, 110, 0.08), transparent);
-}
-
-.text-glow {
-  text-shadow: 0 0 18px rgba(76, 175, 110, 0.45);
+    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(47, 125, 82, 0.06), transparent);
 }
 
 .vinyl-texture {
   background-image: repeating-radial-gradient(
     circle at center,
-    rgba(255, 255, 255, 0.02) 0px,
-    rgba(255, 255, 255, 0.02) 1px,
+    rgba(0, 0, 0, 0.03) 0px,
+    rgba(0, 0, 0, 0.03) 1px,
     transparent 2px,
     transparent 4px
   );

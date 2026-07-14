@@ -29,7 +29,7 @@ export default function ShopGrid() {
             onClick={() => setFilter(f)}
             className={`rounded-full border px-4 py-2 text-sm font-medium transition-colors ${
               filter === f
-                ? "border-accent bg-accent text-background"
+                ? "border-accent bg-accent text-accent-foreground"
                 : "border-border text-muted hover:border-accent hover:text-accent"
             }`}
           >

@@ -36,7 +36,7 @@ export default function ArtworkCard({ artwork }: { artwork: Artwork }) {
             ) : (
               <Link
                 href="/contact"
-                className="rounded-full border border-accent px-4 py-2 text-sm font-medium text-accent transition-colors hover:bg-accent hover:text-background"
+                className="rounded-full border border-accent px-4 py-2 text-sm font-medium text-accent transition-colors hover:bg-accent hover:text-accent-foreground"
               >
                 Inquire to Buy
               </Link>
@@ -52,7 +52,7 @@ export default function ArtworkCard({ artwork }: { artwork: Artwork }) {
           <div className="mt-2">
             <Link
               href="/contact"
-              className="rounded-full border border-accent px-4 py-2 text-sm font-medium text-accent transition-colors hover:bg-accent hover:text-background"
+              className="rounded-full border border-accent px-4 py-2 text-sm font-medium text-accent transition-colors hover:bg-accent hover:text-accent-foreground"
             >
               Request a Commission
             </Link>

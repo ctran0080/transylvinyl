@@ -37,7 +37,7 @@ export default function AboutPage() {
       <div className="mt-10">
         <Link
           href="/contact"
-          className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-background transition-colors hover:bg-accent-dim"
+          className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-accent-foreground transition-colors hover:bg-accent-dim"
         >
           Get in Touch
         </Link>
