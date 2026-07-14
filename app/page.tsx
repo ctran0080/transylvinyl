@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import ArtworkCard from "@/components/ArtworkCard";
 import { artworks } from "@/data/artworks";
@@ -10,13 +9,16 @@ export default function Home() {
     <div className="flex flex-col">
       <section className="relative overflow-hidden border-b border-border">
         <div className="mx-auto flex max-w-6xl flex-col items-center gap-8 px-6 py-20 text-center sm:py-28">
-          <Image
-            src="/images/logo.png"
-            alt="TransylVinyl logo"
-            width={280}
-            height={235}
-            className="h-auto w-48 sm:w-64"
-            priority
+          <video
+            src="/videos/logo.mp4"
+            poster="/images/logo.png"
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="auto"
+            aria-label="TransylVinyl animated logo"
+            className="h-auto w-64 sm:w-80"
           />
           <h1 className="font-display text-4xl text-foreground sm:text-6xl">
             Broken Vinyl. Reborn as Art.
