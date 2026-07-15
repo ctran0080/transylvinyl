@@ -158,6 +158,7 @@ export const artworks: Artwork[] = [
     status: "commission-only",
     image: "/images/artworks/britney.jpg",
     stripeBuyButtonId: null,
+    featured: true,
   },
   {
     id: "18",
@@ -317,6 +318,7 @@ export const artworks: Artwork[] = [
     status: "commission-only",
     image: "/images/artworks/jim-morrison.jpg",
     stripeBuyButtonId: null,
+    featured: true,
   },
   {
     id: "32",
