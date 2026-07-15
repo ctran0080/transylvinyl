@@ -520,6 +520,17 @@ export const artworks: Artwork[] = [
     image: "/images/artworks/tupac.jpg",
     stripeBuyButtonId: null,
   },
+  {
+    id: "50",
+    slug: "taylor-swift",
+    title: "Swifty",
+    description: "A pop portrait built entirely from broken vinyl shards.",
+    category: "Pop Culture",
+    price: null,
+    status: "commission-only",
+    image: "/images/artworks/taylor-swift.jpg",
+    stripeBuyButtonId: null,
+  },
 ];
 
 export const categories: ArtworkCategory[] = [
