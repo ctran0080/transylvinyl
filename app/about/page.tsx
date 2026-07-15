@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -10,9 +11,19 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <div className="mx-auto max-w-3xl px-6 py-16">
-      <h1 className="font-display text-4xl text-foreground">
-        Meet the artist: Colton Tran
-      </h1>
+      <div className="flex flex-col items-center gap-6 text-center sm:flex-row sm:items-center sm:text-left">
+        <Image
+          src="/images/colton-tran.jpg"
+          alt="Colton Tran, the artist behind TransylVinyl"
+          width={200}
+          height={240}
+          className="h-40 w-32 rounded-lg object-cover sm:h-48 sm:w-40"
+          priority
+        />
+        <h1 className="font-display text-4xl text-foreground">
+          Meet the artist: Colton Tran
+        </h1>
+      </div>
 
       <div className="mt-8 space-y-6 text-muted">
         <p>
