@@ -10,7 +10,9 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <div className="mx-auto max-w-3xl px-6 py-16">
-      <h1 className="font-display text-4xl text-foreground">About TransylVinyl</h1>
+      <h1 className="font-display text-4xl text-foreground">
+        Meet the artist: Colton Tran
+      </h1>
 
       <div className="mt-8 space-y-6 text-muted">
         <p>
