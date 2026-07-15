@@ -66,6 +66,30 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="border-t border-border">
+        <div className="mx-auto flex max-w-3xl flex-col items-center gap-4 px-6 py-16 text-center">
+          <h2 className="font-display text-3xl text-foreground">
+            Behind the Scenes
+          </h2>
+          <p className="max-w-xl text-muted">
+            A look at how each piece gets built — from breaking the vinyl to
+            the final cut.
+          </p>
+          <video
+            src="/videos/bts.mp4"
+            controls
+            playsInline
+            preload="metadata"
+            width={1280}
+            height={512}
+            aria-label="Behind the scenes of making TransylVinyl art"
+            className="mt-4 h-auto w-full rounded-lg border border-border"
+          >
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </section>
+
       <section className="border-t border-border bg-background-raised">
         <div className="mx-auto flex max-w-6xl flex-col items-center gap-4 px-6 py-16 text-center">
           <h2 className="font-display text-3xl text-foreground">
